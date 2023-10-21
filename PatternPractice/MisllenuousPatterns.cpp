@@ -126,8 +126,48 @@ int main(){
     //     cout<<endl;
     // }
 
+    // for(i=1;i<=5;i++){
+    //     for(j=1;j<=9;j++){
+    //         if(j==i||j==10-i){
+    //             cout<<"*";
+    //         }
+    //         else{
+    //             cout<<" ";
+    //         }
+            
+    //     }
+    //     cout<<endl;
+    // }
 
 
+    // for(i=1;i<=7;i++){
+    //     if(i<=4){
+    //         for(j=1;j<=5-i;j++){
+    //             cout<<"*";
+    //         }
+    //     }
+    //     else{
+    //         for(j=1;j<=i-3;j++){
+    //             cout<<"*";
+    //         }
+    //     }
+    //     cout<<endl;
+    // }
+
+
+    for(i=1;i<=7;i++){
+        if(i<=4){
+            for(j=i;j<=4;j++){
+                cout<<"*";
+            }
+        }
+        else{
+            for(j=8-i;j<=4;j++){
+                cout<<"*";
+            }
+        }
+        cout<<endl;
+    }
 
 
 } 
